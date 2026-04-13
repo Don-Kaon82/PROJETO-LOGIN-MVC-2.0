@@ -63,3 +63,34 @@ body{
 #Logo_Imagem img:hover{
     transform: scale(1.05);
 }
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social li a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.social img{
+    width: 20px;
+    height: 20px;
+}
+
+.login-container{
+    margin-top: 40px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: fade 0,6s ease;
+}
