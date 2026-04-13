@@ -143,3 +143,22 @@
     justify-content: center;
 }
 
+.btn:hover{
+    background: #555;
+    transform: translateY(-2px);
+}
+
+.loader-dots{
+    display: none;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.loader-dots span{
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    animation: pular 1s infinite ease-in-out;
+}
